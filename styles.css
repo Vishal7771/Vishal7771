@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.input-container, .upload-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.input-container label, .input-container input, .upload-container label, .upload-container input {
+    margin: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 800px; /* Default width */
+    height: 100%; /* Default height */
+    margin: 20px;
+    overflow: auto;
+}
+
+.product {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.sale-price {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.mrp {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(13, 51, 223, 0.836);
+}
